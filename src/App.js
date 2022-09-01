@@ -10,8 +10,8 @@ function App() {
     <Router>
       <Navigation />
 
-      <Route>
-        <HomePage path='/:type?'/>
+      <Route path='/:type?'>
+        <HomePage />
       </Route>
     </Router>
   );
