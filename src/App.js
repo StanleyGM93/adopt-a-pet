@@ -21,6 +21,10 @@ function App() {
           <HomePage />
         </Route>
 
+        <Route path='/search'>
+          <SearchPage />
+        </Route>
+
       </Switch>
 
     </Router>
