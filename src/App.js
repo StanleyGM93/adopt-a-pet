@@ -17,6 +17,10 @@ function App() {
           <PetDetailsPage />
         </Route>
 
+        <Route path='/search'>
+          <SearchPage />
+        </Route>
+
         <Route path='/pet-details-not-found'>
           <PetDetailsNotFound />
         </Route>
@@ -24,12 +28,6 @@ function App() {
         <Route path='/:type?'>
           <HomePage />
         </Route>
-
-        <Route path='/search'>
-          <SearchPage />
-        </Route>
-
-
 
       </Switch>
 
