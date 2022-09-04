@@ -2,7 +2,7 @@ import React, { useState, useEffect, useMemo } from 'react';
 import Hero from '../../components/hero';
 import { getPets } from '../../api/petfinder';
 import Pet from '../../components/pet';
-import { useLocation } from 'react-router-dom/';
+import { useLocation } from 'react-router-dom';
 
 const SearchPage = () => {
 
