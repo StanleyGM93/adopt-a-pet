@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+# Adopt a Pet
+## Purpose
+This project was part of the [Codecademy](www.codecademy.com) full stack engineering course. It is designed to apply concepts of React Router to a pet adoption single page application. It uses multiple hooks and includes usage of a search bar. The project has been deployed on [Netlify](www.netlify.com).
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
